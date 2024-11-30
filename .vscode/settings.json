@@ -1,0 +1,20 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "dist/**": true,
+    "public/**": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "dist/**": true,
+    "public/**": true
+  },
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "**/dist/**",
+    "**/public/**"
+  ],
+  "javascript.preferences.autoImportFileExcludePatterns": [
+    "**/dist/**",
+    "**/public/**"
+  ]
+}
